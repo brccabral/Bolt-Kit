@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1083378141, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
+  m_Name: PlayerHealth
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"title":null,"summary":null,"pan":{"x":210.0,"y":174.0},"zoom":1.0,"elements":[{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Vulnerable","summary":"Can
+      be hurt and die","pan":{"x":369.3334,"y":140.9082},"zoom":0.5999999,"elements":[{"argumentCount":1,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"Damage","$type":"System.String"}},"position":{"x":-207.0,"y":-91.0},"guid":"6a275a7b-d023-4018-9b1c-d5fbbaa19100","$version":"A","$type":"Bolt.CustomEvent","$id":"13"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Health","$type":"System.String"},"object":null},"position":{"x":-203.0,"y":72.0},"guid":"c04ad3cc-19ee-4ac8-895c-ecaa7093e3be","$version":"A","$type":"Bolt.GetVariable","$id":"15"},{"defaultValues":{},"position":{"x":62.0,"y":-21.0},"guid":"b08e8eff-a4df-44cd-9e98-d5d3d1075ab1","$version":"A","$type":"Bolt.GenericSubtract","$id":"17"},{"inputCount":2,"defaultValues":{},"position":{"x":245.0,"y":-16.0},"guid":"92cd7d49-097d-4730-9dc4-cdeaf8dcefeb","$version":"A","$type":"Bolt.ScalarMaximum","$id":"19"},{"type":"System.Int32","value":{"$content":0,"$type":"System.Int32"},"defaultValues":{},"position":{"x":76.0,"y":133.0},"guid":"86654c15-1c96-4925-804f-812c3f35086e","$version":"A","$type":"Bolt.Literal","$id":"21"},{"kind":"Object","defaultValues":{"name":{"$content":"Health","$type":"System.String"},"object":null},"position":{"x":425.0,"y":-109.0},"guid":"a6275b67-f9d6-4c2c-94a3-6b13be6f15d8","$version":"A","$type":"Bolt.SetVariable","$id":"23"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"23"},"destinationKey":"assign","guid":"3ff3ca86-258e-4d8e-a459-ef8ea9fd5db2","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"argument_0","destinationUnit":{"$ref":"17"},"destinationKey":"subtrahend","guid":"513e5138-9c4f-4101-8d3a-d59fd7054d00","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"17"},"destinationKey":"minuend","guid":"dcb28624-ebf7-4e89-b595-0bc60a052a71","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"difference","destinationUnit":{"$ref":"19"},"destinationKey":"0","guid":"a248ebb7-1528-458c-aa9e-64d50dfd28d5","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"output","destinationUnit":{"$ref":"19"},"destinationKey":"1","guid":"d2edb321-e031-4229-9602-25d7afc1f302","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"maximum","destinationUnit":{"$ref":"23"},"destinationKey":"input","guid":"5d6f479e-5c13-4b4f-b454-5c7516130be4","$type":"Bolt.ValueConnection"},{"position":{"xMin":-252.0,"yMin":-156.6666,"xMax":596.3336,"yMax":268.3334},"label":"Subtracts
+      damage from Health","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"909c6ebb-0f71-43bd-975e-fc1e3a1f7f16","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}},"isStart":true,"position":{"x":-86.0,"y":-15.0},"width":170.0,"guid":"480107df-42a1-4aeb-ba63-f7dbb1770cd9","$version":"A","$type":"Bolt.FlowState"}],"$version":"A"}}'
+    _objectReferences: []
