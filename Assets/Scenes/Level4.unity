@@ -374,7 +374,9 @@ PrefabInstance:
       propertyPath: m_AngularDrag
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 189852171039032218, guid: 31269256cca389d4eaca33974334bd7e, type: 3}
+    - {fileID: 3070475045668875224, guid: 31269256cca389d4eaca33974334bd7e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 31269256cca389d4eaca33974334bd7e, type: 3}
 --- !u!4 &301779868 stripped
 Transform:
