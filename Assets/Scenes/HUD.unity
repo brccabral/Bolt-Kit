@@ -433,6 +433,8 @@ GameObject:
   - component: {fileID: 244651500}
   - component: {fileID: 244651499}
   - component: {fileID: 244651498}
+  - component: {fileID: 244651502}
+  - component: {fileID: 244651501}
   m_Layer: 5
   m_Name: MenuButton
   m_TagString: Untagged
@@ -545,6 +547,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 244651496}
   m_CullTransparentMesh: 0
+--- !u!114 &244651501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244651496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-219.0,"y":-145.0},"guid":"29d22723-dfdd-491a-9c11-57f73941cff6","$version":"A","$type":"Bolt.OnButtonClick","$id":"10"},{"chainable":false,"member":{"name":"LoadScene","parameterTypes":["System.String"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneName":{"$content":"Menu","$type":"System.String"}},"position":{"x":50.0,"y":-144.0},"guid":"5de1b5bf-925e-4b13-8173-a4bfde3d8dc6","$version":"A","$type":"Bolt.InvokeMember","$id":"12"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"2155dc70-f2f8-4814-96a2-0c37f24058fa","$type":"Bolt.ControlConnection"}],"$version":"A"}}}'
+    _objectReferences: []
+--- !u!114 &244651502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244651496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &307317161
 GameObject:
   m_ObjectHideFlags: 0
